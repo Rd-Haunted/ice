@@ -1693,7 +1693,7 @@ footer .footer_bottom_inner a{
         justify-content: center;
     }
     footer .footer_outer .footer_inner .footer_inner_right_inner .contact li a{
-        justify-content: flex-start;
+        justify-content: center;
     }
     footer .footer_bottom_inner{
         flex-direction: column;
@@ -1705,5 +1705,20 @@ footer .footer_bottom_inner a{
     footer .footer_bottom_inner ul{
         margin-bottom: 20px;
         margin-top: 10px;
+    }
+    .about_ice {
+        padding-bottom: 35px;
+    }
+    .latest_company .latest_company_inner{
+        margin-top: 25px;
+    }
+    .latest_company .latest_company_inner .card_section{
+        padding-bottom: 25px;
+    }
+    .certification .certification_outer{
+        padding-top: 25px;
+    }
+    footer .footer_outer .footer_inner .footer_inner_right_inner .contact li:first-child{
+        margin-left: 25px;
     }
  }
