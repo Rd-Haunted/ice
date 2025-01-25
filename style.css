@@ -24,7 +24,6 @@ figure{
 }
 .container-xl{
     max-width: 1140px;
-    /* overflow-y: hidden; */
 }
 header .navbar{
     background-color: #c7eff82a;
