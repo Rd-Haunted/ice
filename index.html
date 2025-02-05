@@ -41,7 +41,7 @@
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  >Products</a
+                  >Products <img src="images/drop_down_arrow.png" alt="this is a dropdown image"></a
                 >
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -58,7 +58,7 @@
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  >Resources</a
+                  >Resources <img src="images/drop_down_arrow.png" alt="this is a dropdown image"></a
                 >
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -90,20 +90,17 @@
       </nav>
     </header>
 
-    <section
-      class="helping_engineer"
-      style="
-        background-image: url(images/home_bg_image.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      "
-    >
+    <section class="helping_engineer">
+      <div class="helping_engineer_section_bg_img">
+        <div class="helping_engineer_section_bg_img_inner">
+          <img src="images/home_bg_image.png" alt="this is a background image">
+        </div>
+      </div>
       <div class="helping_engineer_outer container-xl">
         <div class="helping_engineer_inner">
           <div class="helping_engineer_inner_inner">
             <h1>
-              Helping <span>Engineer</span> <br />
+              Helping <span>Engineer</span> <br/>
               The Technology or Power
             </h1>
             <p>
@@ -139,306 +136,708 @@
                 <h2>
                     Featured Products
                 </h2>
-            <ul>
-                <li>
-                    <a href="#">All</a>
-                </li>
-                <li>
-                    <a href="#">Transformers</a>
-                </li>
-                <li>
-                    <a href="#">Inductors</a>
-                </li>
-                <li>
-                    <a href="#">Current Sensors</a>
-                </li>
-                <li>
-                    <a href="#">Power Designs</a>
-                </li>
-                <li>
-                    <a href="#">Custom Magnetics</a>
-                </li>
-            </ul>
-
-            <div class="card_section_outer">
-                <div class="card_section_inner">
-                    <div class="card_section_inner_inner">
-                        <div class="row">
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_1_outer">
-                                <div class="card_1_inner">
-                                  <a href="#">    
-                                  <figure>
-                                    <img src="images/cart_img_1.png" alt="this is product image">
-                                 </figure></a>
-                                     <div class="card_inner_bottom">
-                                        <p>Current Sense Transformers</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="all-tab-pane" aria-selected="true">All</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="transformers-tab" data-bs-toggle="tab" data-bs-target="#transformers-tab-pane" type="button" role="tab" aria-controls="transformers-tab-pane" aria-selected="false">Transformers</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="inductors-tab" data-bs-toggle="tab" data-bs-target="#inductors-tab-pane" type="button" role="tab" aria-controls="inductors-tab-pane" aria-selected="false">Inductors</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="current-tab" data-bs-toggle="tab" data-bs-target="#current-tab-pane" type="button" role="tab" aria-controls="current-tab-pane" aria-selected="false">Current Sensors</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="power-designs-tab" data-bs-toggle="tab" data-bs-target="#power-designs-tab-pane" type="button" role="tab" aria-controls="power-designs-tab-pane" aria-selected="false">Power Designs</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="custom-magnetics-tab" data-bs-toggle="tab" data-bs-target="#custom-magnetics-tab-pane" type="button" role="tab" aria-controls="custom-magnetics-tab-pane" aria-selected="false">Custom Magnetics</button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0"> 
+                    <div class="card_section_outer">
+                    <div class="card_section_inner">
+                        <div class="card_section_inner_inner">
+                            <div class="row">
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_1_outer">
+                                    <div class="card_1_inner">
+                                      <a href="#">    
+                                      <figure>
+                                        <img src="images/cart_img_1.png" alt="this is product image">
+                                     </figure></a>
+                                         <div class="card_inner_bottom">
+                                            <p>Current Sense Transformers</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
                                 </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_2_outer">
+                                    <div class="card_2_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_2.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                       
+                                         <div class="card_inner_bottom">
+                                            <p>Gate Drive Transformers</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_3_outer">
+                                    <div class="card_3_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_3.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>Custom Transformers</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_4_outer">
+                                    <div class="card_4_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_4.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                     
+                                         <div class="card_inner_bottom">
+                                            <p>Class D <br> Inductors</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_5_outer">
+                                    <div class="card_5_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_5.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>THT High <br> Current <br> Inductors</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_6_outer">
+                                    <div class="card_6_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_6.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>SMT High <br> Current <br> Inductors</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_7_outer">
+                                    <div class="card_7_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_7.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                        
+                                         <div class="card_inner_bottom">
+                                            <p>VRM/VRD Inductors</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_8_outer">
+                                    <div class="card_8_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_8.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                        
+                                         <div class="card_inner_bottom">
+                                            <p>Custom <br> Inductors</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_9_outer">
+                                    <div class="card_9_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_9.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>Bus Bar Mount Current Sensors</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_10_outer">
+                                    <div class="card_10_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_10.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>PCB Mount Current Sensors</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_11_outer">
+                                    <div class="card_11_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_11.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>Custom Current Sensors</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_12_outer">
+                                    <div class="card_12_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_12.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                      
+                                         <div class="card_inner_bottom">
+                                            <p>Power Supplies</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_13_outer">
+                                    <div class="card_13_inner">
+    
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_13.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                      
+                                         <div class="card_inner_bottom">
+                                            <p>Convenience Outlets</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_14_outer">
+                                    <div class="card_14_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_14.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>SMPS Transformer</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_15_outer">
+                                    <div class="card_15_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_15.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>PFC Choke</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_16_outer">
+                                    <div class="card_16_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_16.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>Inductor</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_17_outer">
+                                    <div class="card_17_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_17.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>Filter <br> Transformer</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
                             </div>
                           </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_2_outer">
-                                <div class="card_2_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_2.png" alt="this is product image">
-                                   </figure>
-                                  </a>
+                    </div>
+                </div>
+                </div>
+                  
+                  
+                  
+                
+
+
+                  <div class="tab-pane fade" id="transformers-tab-pane" role="tabpanel" aria-labelledby="transformers-tab" tabindex="0"> 
+                    <div class="card_section_outer">
+                    <div class="card_section_inner">
+                        <div class="card_section_inner_inner">
+                            <div class="row">
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_1_outer">
+                                    <div class="card_1_inner">
+                                      <a href="#">    
+                                      <figure>
+                                        <img src="images/cart_img_1.png" alt="this is product image">
+                                     </figure></a>
+                                         <div class="card_inner_bottom">
+                                            <p>Current Sense Transformers</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_2_outer">
+                                    <div class="card_2_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_2.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                       
+                                         <div class="card_inner_bottom">
+                                            <p>Gate Drive Transformers</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_3_outer">
+                                    <div class="card_3_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_3.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>Custom Transformers</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_14_outer">
+                                    <div class="card_14_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_14.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>SMPS Transformer</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                              
+                              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card_17_outer">
+                                    <div class="card_17_inner">
+                                      <a href="#">
+                                        <figure>
+                                          <img src="images/cart_img_17.png" alt="this is product image">
+                                       </figure>
+                                      </a>
+                                         
+                                         <div class="card_inner_bottom">
+                                            <p>Filter <br> Transformer</p>
+                                            <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                         </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                </div>                    
+                
+                   
+                <div class="tab-pane fade" id="inductors-tab-pane" role="tabpanel" aria-labelledby="inductors-tab" tabindex="0"> <div class="card_section_outer">
+                  <div class="card_section_inner">
+                      <div class="card_section_inner_inner">
+                          <div class="row">
+                           
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_4_outer">
+                                  <div class="card_4_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_4.png" alt="this is product image">
+                                     </figure>
+                                    </a>
                                    
-                                     <div class="card_inner_bottom">
-                                        <p>Gate Drive Transformers</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
+                                       <div class="card_inner_bottom">
+                                          <p>Class D <br> Inductors</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
                             </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_3_outer">
-                                <div class="card_3_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_3.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                     
-                                     <div class="card_inner_bottom">
-                                        <p>Custom Transformers</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_5_outer">
+                                  <div class="card_5_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_5.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                       
+                                       <div class="card_inner_bottom">
+                                          <p>THT High <br> Current <br> Inductors</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
                             </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_4_outer">
-                                <div class="card_4_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_4.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                 
-                                     <div class="card_inner_bottom">
-                                        <p>Class D <br> Inductors</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_6_outer">
+                                  <div class="card_6_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_6.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                       
+                                       <div class="card_inner_bottom">
+                                          <p>SMT High <br> Current <br> Inductors</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
                             </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_5_outer">
-                                <div class="card_5_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_5.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                     
-                                     <div class="card_inner_bottom">
-                                        <p>THT High <br> Current <br> Inductors</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_7_outer">
+                                  <div class="card_7_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_7.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                      
+                                       <div class="card_inner_bottom">
+                                          <p>VRM/VRD Inductors</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
                             </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_6_outer">
-                                <div class="card_6_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_6.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                     
-                                     <div class="card_inner_bottom">
-                                        <p>SMT High <br> Current <br> Inductors</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_8_outer">
+                                  <div class="card_8_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_8.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                      
+                                       <div class="card_inner_bottom">
+                                          <p>Custom <br> Inductors</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
                             </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_7_outer">
-                                <div class="card_7_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_7.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                    
-                                     <div class="card_inner_bottom">
-                                        <p>VRM/VRD Inductors</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_8_outer">
-                                <div class="card_8_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_8.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                    
-                                     <div class="card_inner_bottom">
-                                        <p>Custom <br> Inductors</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_9_outer">
-                                <div class="card_9_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_9.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                     
-                                     <div class="card_inner_bottom">
-                                        <p>Bus Bar Mount Current Sensors</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_10_outer">
-                                <div class="card_10_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_10.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                     
-                                     <div class="card_inner_bottom">
-                                        <p>PCB Mount Current Sensors</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_11_outer">
-                                <div class="card_11_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_11.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                     
-                                     <div class="card_inner_bottom">
-                                        <p>Custom Current Sensors</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_12_outer">
-                                <div class="card_12_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_12.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                  
-                                     <div class="card_inner_bottom">
-                                        <p>Power Supplies</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_13_outer">
-                                <div class="card_13_inner">
-
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_13.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                  
-                                     <div class="card_inner_bottom">
-                                        <p>Convenience Outlets</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_14_outer">
-                                <div class="card_14_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_14.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                     
-                                     <div class="card_inner_bottom">
-                                        <p>SMPS Transformer</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_15_outer">
-                                <div class="card_15_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_15.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                     
-                                     <div class="card_inner_bottom">
-                                        <p>PFC Choke</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_16_outer">
-                                <div class="card_16_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_16.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                     
-                                     <div class="card_inner_bottom">
-                                        <p>Inductor</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="card_17_outer">
-                                <div class="card_17_inner">
-                                  <a href="#">
-                                    <figure>
-                                      <img src="images/cart_img_17.png" alt="this is product image">
-                                   </figure>
-                                  </a>
-                                     
-                                     <div class="card_inner_bottom">
-                                        <p>Filter <br> Transformer</p>
-                                        <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
-                                     </div>
-                                </div>
+                          
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_16_outer">
+                                  <div class="card_16_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_16.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                       
+                                       <div class="card_inner_bottom">
+                                          <p>Inductor</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                </div>
-            </div>
+                  </div>
+              </div>
+                </div> 
+
+                                 
+                
+              
+              
+                <div class="tab-pane fade" id="current-tab-pane" role="tabpanel" aria-labelledby="current-tab" tabindex="0"> <div class="card_section_outer">
+                  <div class="card_section_inner">
+                      <div class="card_section_inner_inner">
+                          <div class="row">
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_1_outer">
+                                  <div class="card_1_inner">
+                                    <a href="#">    
+                                    <figure>
+                                      <img src="images/cart_img_1.png" alt="this is product image">
+                                   </figure></a>
+                                       <div class="card_inner_bottom">
+                                          <p>Current Sense Transformers</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
+                            </div>
+                           
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_5_outer">
+                                  <div class="card_5_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_5.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                       
+                                       <div class="card_inner_bottom">
+                                          <p>THT High <br> Current <br> Inductors</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_6_outer">
+                                  <div class="card_6_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_6.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                       
+                                       <div class="card_inner_bottom">
+                                          <p>SMT High <br> Current <br> Inductors</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
+                            </div>
+                           
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_9_outer">
+                                  <div class="card_9_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_9.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                       
+                                       <div class="card_inner_bottom">
+                                          <p>Bus Bar Mount Current Sensors</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_10_outer">
+                                  <div class="card_10_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_10.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                       
+                                       <div class="card_inner_bottom">
+                                          <p>PCB Mount Current Sensors</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_11_outer">
+                                  <div class="card_11_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_11.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                       
+                                       <div class="card_inner_bottom">
+                                          <p>Custom Current Sensors</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
+                            </div>
+                           
+                          </div>
+                        </div>
+                  </div>
+              </div>
+                </div>                   
+          
+              
+
+              <div class="tab-pane fade" id="power-designs-tab-pane" role="tabpanel" aria-labelledby="power-designs-tab" tabindex="0">
+                <div class="card_section_outer">
+                  <div class="card_section_inner">
+                      <div class="card_section_inner_inner">
+                          <div class="row">
+                        
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_12_outer">
+                                  <div class="card_12_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_12.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                    
+                                       <div class="card_inner_bottom">
+                                          <p>Power Supplies</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+              </div>
+            </div>                   
+                                  
+                  
+          
+
+
+              <div class="tab-pane fade" id="custom-magnetics-tab-pane" role="tabpanel" aria-labelledby="custom-magnetics-tab" tabindex="0">
+                <div class="card_section_outer">
+                  <div class="card_section_inner">
+                      <div class="card_section_inner_inner">
+                          <div class="row">
+                            
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_3_outer">
+                                  <div class="card_3_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_3.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                       
+                                       <div class="card_inner_bottom">
+                                          <p>Custom Transformers</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
+                            </div>
+                           
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                              <div class="card_8_outer">
+                                  <div class="card_8_inner">
+                                    <a href="#">
+                                      <figure>
+                                        <img src="images/cart_img_8.png" alt="this is product image">
+                                     </figure>
+                                    </a>
+                                      
+                                       <div class="card_inner_bottom">
+                                          <p>Custom <br> Inductors</p>
+                                          <a href="#">View Product <span><img src="images/right_arrow_2.png" alt="this is a arrow "></span></a>
+                                       </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+              </div>
+            </div>                    
+          
+                
+          </div>
+  
+
             </div>
         </div>
     </section>
