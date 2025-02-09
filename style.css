@@ -1379,7 +1379,187 @@ header .navbar{
     margin-top: -20px;
 }
 
+/* about page all css */
 
+.about_back_ground_img_left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.about_back_ground_img_right{
+    position: absolute;
+    top: -97px;
+    right: 0;
+}
+.about_banner_section{
+    position: relative;
+    height: 393px;
+    width: 100%;
+    background: linear-gradient(255.03deg, #F0F5FF 7.6%, rgba(194, 210, 244, 0.17) 88.97%);
+}
+.about_banner_section_inner_right figure img{
+    margin-left: -30px;
+}
+.about_banner_section_inner_left h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #022642;
+}
+.about_banner_section_inner_left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.about_section_2_left .about_section_2_left_inner h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    color: #04131F;
+}
+.about_section_2_left .about_section_2_left_inner p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #00B4E0;
+}
+.about_section_2_left .about_section_2_left_inner p:last-child{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.about_section_2_left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.about_section_2{
+    margin-top: 89px;
+    margin-bottom: 93px;
+}
+
+.about_section_3{
+    background-color: #F4F5F6;
+    padding: 83px 0px 89px;
+}
+.about_section_3_right{
+    display: flex;
+    justify-content: center;
+}
+.about_section_3_right p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    max-width: 470px;
+    margin-top: -5px;
+}
+.about_section_3_right p:last-child{
+    max-width: 454px;
+}
+
+.about_section_4_left .about_section_4_left_inner h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    color: #04131F;
+    max-width: 273px;
+}
+.about_section_4_left .about_section_4_left_inner p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    max-width: 510px;
+    &:last-child{
+        max-width: 515px;
+    }
+}
+.about_section_4{
+    margin-top: 102px;
+    margin-bottom: 88px;
+}
+
+
+.about_section_5{
+    background-color: #F4F5F6;
+    padding-top: 113px;
+    padding-bottom: 125px;
+}
+.about_section_5 .about_section_5_right_inner h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    color: #04131F;
+    margin-top: -10px;
+    max-width: 440px;
+    margin-bottom: 20px;
+}
+.about_section_5 .about_section_5_right_inner p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    max-width: 461px;
+}
+.about_section_5_right{
+    display: flex;
+    justify-content: center;
+}
+.about_section_6{
+    margin-top: 125px;
+}
+.about_section_6 .about_section_6_left .about_section_6_left_inner h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    color: #04131F;
+    max-width: 490px;
+    margin-top: -10px;
+}
+.about_section_6 .about_section_6_left .about_section_6_left_inner p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    max-width: 512px;
+}
+.about_section_6 h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #00B4E0;
+    margin-top: 74px;
+    margin-bottom: 102px;
+}
 
 footer{
     background-color: #0B2D75;
@@ -1480,6 +1660,60 @@ footer .footer_bottom_inner a{
 
 
  @media (max-width:1199px){
+
+    /* about page responsive */
+    .about_banner_section_inner_left h1{
+        font-size: 48px;
+    }
+   
+    .about_section_2_left .about_section_2_left_inner h2{
+        font-size: 25px;
+    }
+    .about_section_2_left .about_section_2_left_inner p{
+        font-size: 16px;
+    }
+ 
+    .about_section_3_right p{
+        font-size: 16px;
+    }
+    .about_section_4_left .about_section_4_left_inner h2{
+        font-size: 25px;
+    }
+    .about_section_4_left .about_section_4_left_inner p{
+        font-size: 16px;
+        max-width: 458px;
+    }
+  
+    .about_section_5 .about_section_5_right_inner h2{
+        font-size: 25px;
+        max-width: 264px;
+    }
+    .about_section_5 .about_section_5_right_inner p{
+        font-size: 16px;
+        max-width: 410px;
+    }
+    .about_back_ground_img_right{
+        display: none;
+    }
+    .about_back_ground_img_left{
+        display: none;
+    }
+    .about_section_6 .about_section_6_left .about_section_6_left_inner h2{
+        font-size: 25px;
+        max-width: 293px;
+    }
+    .about_section_6 .about_section_6_left .about_section_6_left_inner p{
+        font-size: 16px;
+        max-width: 455px;
+    }
+    .about_section_6 h3{
+        font-size: 25px;
+    }
+    
+   
+    
+    /* about page responsive end */
+
 
     /* drop down section */
     .navbar-nav .dropdown-menu {
